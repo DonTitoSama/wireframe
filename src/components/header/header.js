@@ -8,8 +8,8 @@ const Header = () => {
 
   return (
     <header className="header-container bg-white text-black py-3 border-bottom border-dark border-2">
-      <h1 className="fw-bold">CITATION ET ANNIVERSAIRES</h1>
-      <h1 id="date" className="mx-5 text-uppercase fw-bold">{formattedDate}</h1>
+      <h1>CITATION ET ANNIVERSAIRES</h1>
+      <h1 id="date" className="mx-5 text-uppercase">{formattedDate}</h1>
     </header>
   );
 }
