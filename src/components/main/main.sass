@@ -1,0 +1,113 @@
+@import '~bootstrap/scss/bootstrap'
+
+@font-face
+  font-family: 'HWT Arabesque'
+  src: url('HWT_Arabesque.ttf') format('truetype')
+
+@font-face
+  font-family: 'Bison'
+  src: url('../header/bison.ttf') format('truetype')
+
+.main-container
+  display: flex
+  height: 100vh
+  justify-content: center
+  align-items: center
+
+.left-side, .right-side
+  height: 100%
+
+.left-side
+  position: relative
+  width: 50%
+  background-color: #DF80AC
+  border-right: 2px solid black
+
+.joyeux-anniversaire
+  padding-top: 40px
+  text-align: center
+
+.content
+  position: absolute
+  bottom: 20px
+  left: 50%
+  transform: translateX(-50%)
+  width: 100%
+
+.nom-prenom
+  font-family: 'HWT Arabesque'
+  text-align: center
+  font-size: 100px
+
+.stars1
+  position: absolute
+  top: 150px
+  right: 50px
+
+.stars2
+  position: absolute
+  left: 50px
+  top: 50px
+
+.stars3
+  position: absolute
+  left: 50px
+  top: 450px
+
+
+
+
+.right-side
+  width: 50%
+  display: flex
+  flex-direction: column
+  align-items: center
+
+
+.container1
+  position: relative
+  margin: 40px
+  padding: 20px
+  margin-top: 30px
+  border: 2px solid black
+  border-radius: 10px
+  font-family: 'Bison'
+  font-size: 1.5em
+  box-shadow: -10px 10px 0px 0px #DF80AC
+  width: 650px
+  height: 200px
+
+#autor
+  position: absolute
+  bottom: 0
+  right: 30px
+  bottom: 10px
+
+.container2
+  position: relative
+  margin: 40px
+  margin-top: 30px
+  border: 2px solid black
+  border-radius: 10px
+  box-shadow: -10px 10px 0px 0px #DF80AC
+  width: 650px
+  height: 400px
+
+#heartImg
+  width: 50%
+  height: 100%
+  object-fit: cover
+
+
+.progress-bar
+  width: 300px
+  height: 20px
+  background-color: #ccc
+  border-radius: 10px
+  overflow: hidden
+  box-shadow: -10px 10px 0px 0px black
+
+.progress-fill
+  width: 50%
+  height: 100%
+  background-color: #DF80AC
